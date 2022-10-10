@@ -11,20 +11,20 @@ public class MainMenu {
 		char selection = new java.util.Scanner(System.in).next().charAt(0); // 锁定字节长度
 
 		System.out.println("Your input is " + selection);
-		if (selection == 'S' || selection == 's')// 大小写适配
+		if (selection == 'S' && selection == 's')// 大小写适配
 		{
 			System.out.println("Game Start");
 			GamePlay.start();
 		}
 
-		else if (selection == 'Q' || selection == 'q') {
+		else if (selection == 'Q' && selection == 'q') {
 			System.out.println("You have exited the game");
 			System.out.println("Welcome back");
 			System.exit(0);
 		}
 
 		else {
-
+			
 			for (int i = 0; i < 50; i++)
 				System.out.println(" ");    // clear
 			
