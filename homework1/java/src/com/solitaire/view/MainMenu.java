@@ -25,7 +25,7 @@ public class MainMenu {
 
 		else {
 			
-			for (int i = 0; i < 50; i++)
+			for (int i = 0; i < 10; i++)
 				System.out.println(" ");    // clear
 			
 			System.out.println("————————————————————————————————————————————————————");
