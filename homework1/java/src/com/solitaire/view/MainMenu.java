@@ -31,7 +31,7 @@ public class MainMenu {
 			System.out.println("————————————————————————————————————————————————————");
 			System.out.println("\033[31;1minvalid command! please enter the correct command!!\033[0m");
 
-			// System.out.println("——————————————————————————————————————————————————");
+			//System.out.println("——————————————————————————————————————————————————");
 			System.out.println("————————————————————————————————————————————————————");
 
 			MainMenu.show();
