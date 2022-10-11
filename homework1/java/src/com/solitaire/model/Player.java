@@ -14,7 +14,7 @@ public class Player {
     }
 
     private Player() {
-        this.score = 0;
+        this.score = 0; 
         this.numOfMoves = 0;
     }
 
