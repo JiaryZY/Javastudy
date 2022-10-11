@@ -9,6 +9,11 @@ public class CardController {
         board.getStockArray().remove(0);
     }
     public static void move(String para1,String para2){
+    	
+    	
+    	
+    	
+    	
         
     }
 }

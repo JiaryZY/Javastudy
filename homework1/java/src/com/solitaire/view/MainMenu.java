@@ -11,7 +11,7 @@ public class MainMenu {
 		char selection = new java.util.Scanner(System.in).next().charAt(0); // Lock byte length
 
 		System.out.println("Your input is " + selection);
-		if (selection == 'S' || selection == 's')// Upper and lower case adaptation
+		if (selection == 'S' || selection == 's')//大小写字母适配 Upper and lower case adaptation
 		{
 			System.out.println("Game Start");
 			GamePlay.start();
